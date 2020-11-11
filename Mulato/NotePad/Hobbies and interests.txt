@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+		<title>My First webpage</title>
+<style>
+body {
+  background-image: url('Images/image background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+	<body>
+		<center>
+		<h1>My Hobbies and Interests</h1>
+		<hr>
+		</center>
+			<ul>
+  				<li style="font-size:200%;">Listening to music</li>
+ 				<li style="font-size:200%;">Editing Pictures</li>
+  				<li style="font-size:200%;">Dancing</li>
+				<li style="font-size:200%;">Playing Basketball and Volleyball</li>
+				<li style="font-size:200%;">Watching Movies and Anime</li>			
+			</ul>
+		<hr>
+			<center>
+			<img src="Images/Music.jpg" alt="Profile" width="180" height="180">
+			<img src="Images/Edit.jpg" alt="Profile" width="180" height="180">
+			<img src="Images/Dancing.jpg" alt="Profile" width="180" height="180">
+			<img src="Images/Basketball.jpg" alt="Profile" width="180" height="180">
+			<img src="Images/Volleyball.jpg" alt="Profile" width="180" height="180">
+			<img src="Images/Movies.jpg" alt="Profile" width="180" height="180">
+			</center>
+	</body>
+</html>

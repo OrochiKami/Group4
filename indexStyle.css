@@ -1,0 +1,109 @@
+body {
+    font-family: 'Times New Roman';
+}
+
+.fadeBlack {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: 1s;
+}
+
+.floatSelect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100px;
+    margin: 50px 0px;
+    padding: 20px;
+}
+
+.floatSelect a button {
+    color: rgb(000, 255, 255, 0);
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    text-align: right;
+    
+    height: 50px;
+    width: 200px;
+
+    margin: 10px -75px;
+    padding: 0px 20px;
+}
+
+.floatSelect p {
+    color: rgb(000, 255, 255);
+    font-size: 20px;
+    display: block;
+
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    
+    width: 150px;
+}
+
+.selectButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 255, 255, 0.5);
+    transition: 0.5s;
+}
+
+.selectButton:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgb(0, 255, 255);
+    color: rgb(0, 255, 255);
+
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 3px rgb(000, 000, 000);
+    box-shadow: 0 0 20px rgb(000, 000, 000), 10px 0 5px rgb(000, 255, 255);
+    margin-left: -20px;
+}
+
+.title {
+    position: relative;
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: -10px;
+
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aqua;
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
+    text-decoration: underline;
+
+    border-top: 1px solid black;
+}
+
+/* ID Section */
+#Fabito{
+    transition: 1s;
+    background-image: url('EdgyFabito.jpg');
+    background-position: center;
+}
+#Villanueva{
+    transition: 1s;
+    background-image: url('EdgyVillanueva.jpg');
+    background-position: center;
+}
+#Corpuz{
+    transition: 1s;
+    background-image: url('EdgyCorpuz.jpg');
+    background-position: center;
+}
+#Amores{
+    transition: 1s;
+    background-image: url('EdgyAmores.jpg');
+    background-position: center;
+}
+#Esguerra{
+    transition: 1s;
+    background-image: url('EdgyEsguerra.jpg');
+    background-position: center;
+}
+#Mulato {
+    transition: 1s;
+    background-image: url('EdgyMulato.jpg');
+    background-position: center;
+}

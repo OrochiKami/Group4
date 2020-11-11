@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+		<title>My First webpage</title>
+<style>
+body {
+  background-image: url('Images/image background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+	<body>
+		<center>
+		<h1>My Educational Background</h1>
+		<hr>
+		</center>
+		<h2 style="font-size:200%;">GIFTED Learning Centre Inc.<br>
+		Junior High: GIFTED Learning Centre Inc.,<br>
+		Senior High: GIFTED Learning Centre Inc.,<br>
+		College: St. Louis College<br>
+		Course : BS Inforamtion Technology</h2>
+		
+	</body>
+</html>

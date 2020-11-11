@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+
+
+
+               
+
+
+
+
+                 <title>My website   </title>
+ </head>
+
+
+<body bgcolor="#ffff00"> 
+ <div>
+
+   <h1 style= "text-align: center;color: black;width: 500x;
+border: 0px solid black;
+padding: 7px;
+margin: 3px;
+background-color: #996600; float;left">WELCOME TO MY WEBSITE    </h1>
+
+
+
+
+<p style="font-size:120%;width:500px;border: 0px solid black;
+padding: 7px;
+margin: 3px;
+background-color: #cccc00; float;left">
+<b>
+ 
+<a href="personal.html">Personal Information</a> is a link to my Personal Information
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+<div style="font-size:80%"
+>
+<h2 >Hello ! I am Daron Trixy Lucido, a BSIT 1-A student. Yes my name sounds silly so you better call me AARON.<br>I am Aaron who loves watching anime such as Naruto, Ghost Fighter and Kuroko, but my all time favorite was "SHAMAN KING" </h2>
+
+
+<h3 style="font-size:160%">LIFE LESSON:<br>You can't go back and change the beginning, But you can start where you are and change the ending</h3>
+</div>
+
+<hr>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

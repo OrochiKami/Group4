@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 
+
+               
+
+
+
+
+                 <title>Educational Background  </title>
+ </head>
+
+
+<body bgcolor="#ffff99"> 
+
+
+ <div>
+   <h1 style="text-align: center;color: black;width: 500x;
+border: 0px solid black;
+padding: 7px;
+margin: 3px;
+background-color: #996600;>
+                         MY Educational Background    </h1>
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size:120%;width:500px;border: 0px solid black;
+padding: 7px;
+margin: 3px;
+background-color: #cc9900; float;left">
+<a href="home.html">homepage</a>
+</div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

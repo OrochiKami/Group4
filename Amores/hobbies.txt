@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+
+
+                 <title>Hobbies & Interests  </title>
+ </head>
+
+
+<body bgcolor="#ffff99"> 
+
+
+ <div>
+   <h1>MY Hobbies and Interests   </h1>
+
+
+
+
+
+
+
+
+<br>
+<br><br><br><br><br>
+<p style="font-size:120%;width:500px;border: 0px solid black;
+padding: 7px;
+margin: 3px;
+background-color: #cc9900; float;left">
+<a href="home.html">homepage</a>
+</div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

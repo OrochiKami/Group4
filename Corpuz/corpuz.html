@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<title>Corpuz, Nathaniel Bloglife</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!-- Fabito Exension -->
+<script src="../Fabito/myScript.js"></script>
+<link rel="stylesheet" href="../Fabito/myStyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey" onload="cheapLod()" onload="buttonAppear()">
+<div id="omegaBlack"></div>
+<button id="backButton" type="button" class="btn btn-default btn-circle btn-lg" onclick="toIndex()">
+	<i class="fa fa-chevron-left"></i>
+</button>
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>NATHANIEL BLOGLIFE</b></h1>
+    <h6>Welcome to the blog of <span class="w3-tag">Nathaniel's world</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="1.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Nathaniel's</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>FASHION BLOG</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">FOLLOW <i class="fas fa-user-plus"></i></button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>"DANCING IS MY PASSION"</h3>
+          <h5>Dance is a form of expression that brings people together, allows them to be creative in new ways, and is a fantastic way to escape the stresses and cares of everyday life. , <span class="w3-opacity">2014 - Present</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="dances.jpg" alt="Girl Hat" style="width:80%" class="w3-padding-16">
+          <p><strong>DANCE!</strong> Dancing has been a huge learning experience for me and the influence it has had on my life, I will never forget. I've learned teamwork as well as leadership, and for countless numbers of hours for 6 years I have spent my days devoting myself to practicing, perfecting and an open-mind. To me, dance is more than just a beautiful art form. Dance is a way to communicate with people and it should be respected and honored. I feel it is beautiful, exciting and inspiring. I can never get bored with it because there is always room to improve. There can always be more beats, higher jumps and better placement, among other things. I am showing the world me, and…show more content…
+Anyone devoted to an athletic ambition works incredibly hard to maintain their bodies so that they can perform to the best of their abilities. Friends and family look up to me because I have worked so hard to be a better dancer. The balance between teamwork and leadership is crucial to attaining proud success.
+     I have to take care of my body to be a dancer and through this, I have learned to be more disciplined. It has prepared me to stay in shape, by eating properly and practicing all the time, even outside of class. Also, I have not and will not lay a finger on a cigarette. My past teachers have never been cruel, but only very stern, direct people. They have always wanted the best that I could possibly give and that has made me realize how important criticism is. Remembering that your best is as good as you can do is very important. While performing on stage, it's all adrenaline. Everything is really intense however, I strive for excellence. To stand out on stage at the end of the performance, and to know you thrilled the audience is an incredible feeling.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="criss.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Cris Brown <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Great blog post! Following</p>
+              </div>
+			  <div class="w3-col l2 m3">
+                <img src="mjj.jpg" style="width:90px;">
+              </div>
+			  <div class="w3-col l10 m9">
+                <h4>Michael Jackson <span class="w3-opacity w3-medium">December 3, 2016, 7:15 AM</span></h4>
+                <p>Lods!!</p>
+              </div>
+			  <div class="w3-col l2 m3">
+                <img src="wod.jpg" style="width:90px;">
+              </div>
+			  <div class="w3-col l10 m9">
+                <h4>World of Dance <span class="w3-opacity w3-medium">November 25, 2016, 11:15 AM</span></h4>
+                <p>Nice. Good job!</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+	  
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>PHOTOGRAPHY</h3>
+          <h5>“There is one thing the photograph must contain, the humanity of the moment.” <span class="w3-opacity">June 30, 2016</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="phh.jpg" alt="Men in Hats" style="width:80% " class="w3-padding-16 ">
+          <p><strong>CAPTURED!</strong> Nice scenery. </p>
+          <p>Photography is the whole world full of adventures, interesting events, stories, games of colors and light. As one of the most interesting and exciting forms of art, it appeared a long time ago, and to this time has been greatly influencing the human life. In the 19th century, for example, the adherents of positivism believed that photography is a science that allows to record reality. Photography, both art and science, has constantly been improved by different artists, inventors, scientists, and engineers.We are all accustomed to believe by taking pictures we capture the best moments of our life, and photographs help to recall the events of the past. However, there is much more to tell. A photographer is a painter who depicts his life on a canvas by conveying certain emotions or experiences, and who describes reality the way he or she sees it or wants it to be. So, we cannot always be sure whether a photograph reflects reality with the highest accuracy or vice versa, hides it. Let’s consider a number of current arguments and facts about photography, and find out what it really is.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+		  <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="criss.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Cris Brown <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Great blog post! Following</p>
+              </div>
+			  <div class="w3-col l2 m3">
+                <img src="mjj.jpg" style="width:90px;">
+              </div>
+			  <div class="w3-col l10 m9">
+                <h4>Michael Jackson <span class="w3-opacity w3-medium">December 3, 2016, 7:15 AM</span></h4>
+                <p>Lods!!</p>
+              </div>
+			  <div class="w3-col l2 m3">
+                <img src="wod.jpg" style="width:90px;">
+              </div>
+			  <div class="w3-col l10 m9">
+                <h4>World of Dance <span class="w3-opacity w3-medium">November 25, 2016, 11:15 AM</span></h4>
+                <p>Nice. Good job!</p>
+              </div>
+          </div>
+        </div>
+      </div>
+   <hr>
+
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="thaniel.jpg" alt="Nathaniel" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>Me, Myself and I</h4>
+          <p>There are many things to say about me. There’s a lot to know about me as well. I’ll try my best to describe myself. You see, I dislike almost everything, and I don’t really like much of anything, and I have many future goals.</p>
+        </div>
+      </div>
+      <hr>
+
+    
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle"><img src="ads.jpg" alt="Photography" style="width:90%"></span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Fashion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hats</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Norway</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sweaters</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Deals</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jeans</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="rk.jpg" alt="Photography" style="width:60%"> <h6>Roger Raker</h6></p>
+            <p><img src="nics.jpg" alt="Photography" style="width:50%"> <h6>Niccolo Cosme</h6></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="paul.jpg" alt="Photography" style="width:50%" class="w3-grayscale"><h6>Paul Quiambao</h6></p>
+            <p><img src="xy.jpeg" alt="Jeans" style="width:50%"><h6>Xyza Bacani</h6></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding"><h6>@nathanielawesome</h6>
+         <h6>@chi-o-pogi</h6><h6>@titan_niel</h6>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:3px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">FOLLOWING <i class="fas fa-user-check"></i></h2>
+          </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p> <a href="#" target="_blank">I LOVE MY SELF!</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
