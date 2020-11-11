@@ -1,6 +1,7 @@
 {
-  "root":"public_html/"
-}
-{
-  "canonical_host": "index.html"
+  "root": "build/",
+   "routes": {
+    "/assets/*": "/assets/",
+    "/**": "index.html"
+  }
 }
