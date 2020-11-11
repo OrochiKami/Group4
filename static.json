@@ -3,9 +3,6 @@
   "root":"public"
 }
 {
-  "root": "public_html/index.html"
-}
-{
-  "canonical_host": "www.w3school.com"
+  "root": "public_html/index"
 }
 
