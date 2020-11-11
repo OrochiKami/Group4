@@ -1,6 +1,11 @@
+
 {
-  "root": "public_html/"
+  "root":"public"
+}
+{
+  "root": "public_html/index.html"
 }
 {
   "canonical_host": "www.w3school.com"
 }
+
